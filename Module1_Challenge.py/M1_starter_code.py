@@ -227,4 +227,3 @@ with open (output_path, "w") as csvfile:# this writes to a csv file using the wr
 
     for loan in inexpensive_loans:# creates the rows in the new csv file of 'inexpensive_loans'
         csvwriter.writerow( loan.values())
-#test changes
