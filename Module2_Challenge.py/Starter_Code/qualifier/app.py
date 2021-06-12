@@ -113,11 +113,18 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-#def save_csv():
+
 def save_csv(csvpath, data, header=None):
-    with open('qualifying_data.csv', 'w') as file:
-        writer = csv.Writer(file)
-        for row in file:
+    """ This saves the the qualifying data as a file.
+
+    Args:  
+        csvpath: file path for the file you write to 
+        data: the data that will populate the csv file.
+        header: this makes a blank header in the file
+    """
+    with open(csvpath, 'w', newline="") as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=",")
+        for row in csvfile:
             print(row)
 
 def run():
