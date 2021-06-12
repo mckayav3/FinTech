@@ -113,9 +113,12 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-def save_csv():
-    
-
+#def save_csv():
+def save_csv(csvpath, data, header=None):
+    with open('qualifying_data.csv', 'w') as file:
+        writer = csv.Writer(file)
+        for row in file:
+            print(row)
 
 def run():
     """The main function for running the script."""
