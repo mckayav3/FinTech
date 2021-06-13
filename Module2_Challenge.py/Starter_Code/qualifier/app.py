@@ -113,11 +113,20 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    questionary.confirm("Would you like to save your loan data?").ask()
-    csvpath = questionary.text("What is the path you want to save the new loan data").ask()
-    csvpath = Path(csvpath)
+    user_input = questionary.confirm("Would you like to save your loan data?").ask()
 
-def save_csv(csvpath, data, header=None):
+    if user_input:
+        csvpath = questionary.text("What is the path you want to save the new loan data?").ask()
+        csvpath = Path(csvpath)
+        if not csvpath.exists():
+            sys.exit(f"This path you entered does not exist: {csvpath}")
+        save_csv(csvpath,qualifying_loans)
+    else:
+        print("The file you entered will not be saved.")
+
+
+
+def save_csv(csvpath, data):
     """ This saves the the qualifying data as a file.
 
     Args:  
@@ -126,9 +135,8 @@ def save_csv(csvpath, data, header=None):
         header: this makes a blank header in the file
     """
     with open(csvpath, 'w', newline="") as csvfile:
-        csvwriter = csv.writer(csvfile, delimiter=",")
-        for row in csvfile:
-            print(row)
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(data)
 
 def run():
     """The main function for running the script."""
