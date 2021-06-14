@@ -100,8 +100,6 @@ Email: andrew.v.mckay@gmail.com
 
 ## License
 
-MIT
-
 MIT License
 
 Copyright (c) [2021] [Andrew McKay]
