@@ -37,7 +37,7 @@ In gitbash after you have activated your dev environment, install the following:
 
     `pip install fire`
 
-    ![pip install fire](Module2_Challenge.py\Starter_Code\qualifier\images\pip_install_fire.JPG)
+    ![pip install fire](images\pip_install_fire.JPG)
 
 ---
 
@@ -55,10 +55,14 @@ This section should include screenshots, code blocks, or animations explaining h
 
 ## Contributors
 
-In this section, list all the people who contribute to this project; since you may want to be reached by recruiters or potential collaborators, include your contact e-mail, and optionally your LinkedIn or Twitter profile.
+Andrew McKay
+
+Email: andrew.v.mckay@gmail.com
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify others what they can and can not do with your source code and files. Use this section to include the licence you want to use.
+MIT
+
+
