@@ -37,7 +37,7 @@ In gitbash after you have activated your dev environment, install the following:
 
     `pip install fire`
 
-    ![pip install fire](images\pip_install_fire.JPG)
+    ![pip install fire](images/pip_install_fire.JPG)
 
 ---
 
