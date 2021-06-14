@@ -5,15 +5,20 @@ This is a python command-line application that allows a user to see what loans t
 ---
 
 ## Technologies
-This project leverages python 3.8.8 with the follwing packages:
 
-This project leverages python 3.7 with the following packages:
+This was run on a pc using Windows 10
+
+This project leverages python 3.8.8 with the follwing packages:
 
 * [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
 
 * [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
 * [pytest](https://docs.pytest.org/en/stable/) - For basic assertion testing of financial calculators and filters, and filio.
+
+*[pathlib](https://docs.python.org/3/library/pathlib.html) - For location through the directory and file path.
+
+*[csv](https://docs.python.org/3/library/csv.html) - For reading and writing csv files after running the application.
 
 ---
 
@@ -25,6 +30,13 @@ In this section, you should include detailed installation notes containing code 
   pip install questionary
   pip install pytest
 ```
+In gitbash after you have activated you dev environment, install the following:
+*Python Fire
+
+    `pip install fire`
+
+    <img src="Module2_Challenge.py\Starter_Code\qualifier\images\pip_install_fire.JPG">
+
 
 ---
 
