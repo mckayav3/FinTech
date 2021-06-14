@@ -16,9 +16,9 @@ This project leverages python 3.8.8 with the follwing packages:
 
 * [pytest](https://docs.pytest.org/en/stable/) - For basic assertion testing of financial calculators and filters, and filio.
 
-*[pathlib](https://docs.python.org/3/library/pathlib.html) - For location through the directory and file path.
+* [pathlib](https://docs.python.org/3/library/pathlib.html) - For location through the directory and file path.
 
-*[csv](https://docs.python.org/3/library/csv.html) - For reading and writing csv files after running the application.
+* [csv](https://docs.python.org/3/library/csv.html) - For reading and writing csv files after running the application.
 
 ---
 
@@ -35,7 +35,7 @@ In gitbash after you have activated you dev environment, install the following:
 
     `pip install fire`
 
-    ![pip install fire](img src="./images/pip_install_fire.JPG" alt="Install Fire" witdth="700"/)
+    ![pip install fire](C:\Users\Andrew McKay\FinTech-Workspace\Module2_Challenge.py\Starter_Code\qualifier\images\pip_install_fire.JPG)
 
 
 ---
