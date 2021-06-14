@@ -119,10 +119,11 @@ def save_qualifying_loans(qualifying_loans):
         csvpath = questionary.text("What is the path you want to save the new loan data?").ask()
         csvpath = Path(csvpath)
         if not csvpath.exists():
-            sys.exit(f"This path you entered does not exist: {csvpath}")
-        save_csv(csvpath,qualifying_loans)
+            save_csv(csvpath,qualifying_loans)
+        else:
+            print (f"This file already exists!")
     else:
-        print("The file you entered will not be saved.")
+        print(f"The file you entered will not be saved.")
 
 
 
@@ -133,10 +134,13 @@ def save_csv(csvpath, data):
         csvpath: file path for the file you write to 
         data: the data that will populate the csv file.
         header: this makes a blank header in the file
+
+    Returns:
+        
     """
-    with open(csvpath, 'w', newline="") as csvfile:
+    with open(csvpath,'w', newline='') as csvfile: #creates a new csv file
         csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(data)
+        csvwriter.writerows(data)
 
 def run():
     """The main function for running the script."""
