@@ -77,7 +77,7 @@ From the command line you enter python app.py to start running the application.
 
 Once the application is launched the user is asked to enter the file path for the available loans. This is where they enter the path for 'daily_rate_sheet"
 
-![daily rate sheet](images/daily_rate_sheet)
+![daily rate sheet](images/daily_rate_sheet.JPG)
 
 Once all the data for the all the available loans are stored. The user is prompted to enter in their criteria to filter through the loans available to them.
 
