@@ -35,7 +35,7 @@ In gitbash after you have activated you dev environment, install the following:
 
     `pip install fire`
 
-    <img src="Module2_Challenge.py\Starter_Code\qualifier\images\pip_install_fire.JPG">
+    <img src="./images/pip_install_fire.JPG" alt="Install Fire" witdth="700" />
 
 
 ---
