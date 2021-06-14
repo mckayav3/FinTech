@@ -1,12 +1,19 @@
-# Project Title
+# Module 2 Challenge - Loan Qualifier Application
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is a python command-line application that allows a user to see what loans they qualify for. The application works by taking in the user's criteria for the following: credit score, income, debt, and loan information. The application then compares this criteria against 'daily_rate_sheet' to see what loans the user qualifies for based on the their input. The application then allows the user the option to save their qualified loan data to a csv file so they can acces it at a later date if neccessary. 
 
 ---
 
 ## Technologies
+This project leverages python 3.8.8 with the follwing packages:
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This project leverages python 3.7 with the following packages:
+
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
+
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
+
+* [pytest](https://docs.pytest.org/en/stable/) - For basic assertion testing of financial calculators and filters, and filio.
 
 ---
 
