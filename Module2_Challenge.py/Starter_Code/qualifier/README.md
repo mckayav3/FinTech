@@ -42,7 +42,7 @@ In gitbash after you have activated your dev environment, install the following:
 
     `pip install questionary`
 
-![pip install questionary](images/pip_istall_questionary.JPG)
+![pip install questionary](images/pip_install_questionary.JPG)
 
 
     `pip install pytest`
