@@ -39,6 +39,18 @@ In gitbash after you have activated your dev environment, install the following:
 
 ![pip install fire](images/pip_install_fire.JPG)
 
+
+    `pip install questionary`
+
+![pip install questionary](images/pip_istall_questionary.JPG)
+
+
+    `pip install pytest`
+
+![pip install pytest](images/pip_install_pytest.JPG)
+
+
+
 ---
 
 ## Examples
