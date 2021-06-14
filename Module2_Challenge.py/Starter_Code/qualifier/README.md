@@ -57,12 +57,35 @@ In gitbash after you have activated your dev environment, install the following:
 
 This section should include screenshots, code blocks, or animations showing how your project works.
 
+The two images below show what the output of the application is.
+
+![running app.py](images/running_application.JPG)
+
+![saved csv file](images/saved_csv_file.JPG)
+
+
+
 ---
 
 ## Usage
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
+From the command line you enter python app.py to start running the application. 
+
+![app.py](images/app.py.JPG)
+
+Once the application is launched the user is asked to enter the file path for the available loans. This is where they enter the path for 'daily_rate_sheet"
+
+![daily rate sheet](images/daily_rate_sheet)
+
+Once all the data for the all the available loans are stored. The user is prompted to enter in their criteria to filter through the loans available to them.
+
+![user criteria](images/user_criteria.JPG)
+
+The result is the saved file with the available qualified loans
+
+![saved csv file](images/saved_csv_file.JPG)
 
 
 ---
