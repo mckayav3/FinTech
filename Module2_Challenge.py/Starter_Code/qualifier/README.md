@@ -25,18 +25,19 @@ This project leverages python 3.8.8 with the follwing packages:
 ## Installation Guide
 
 In this section, you should include detailed installation notes containing code blocks and screenshots.
+
 ```python
   pip install fire
   pip install questionary
   pip install pytest
 ```
-In gitbash after you have activated you dev environment, install the following:
+In gitbash after you have activated your dev environment, install the following:
+
 *Python Fire
 
     `pip install fire`
 
-    ![pip install fire](C:\Users\Andrew McKay\FinTech-Workspace\Module2_Challenge.py\Starter_Code\qualifier\images\pip_install_fire.JPG)
-
+    ![pip install fire](Module2_Challenge.py\Starter_Code\qualifier\images\pip_install_fire.JPG)
 
 ---
 
