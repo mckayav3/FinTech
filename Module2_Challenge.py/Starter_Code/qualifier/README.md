@@ -20,6 +20,11 @@ This project leverages python 3.7 with the following packages:
 ## Installation Guide
 
 In this section, you should include detailed installation notes containing code blocks and screenshots.
+```python
+  pip install fire
+  pip install questionary
+  pip install pytest
+```
 
 ---
 
